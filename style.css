@@ -1,0 +1,984 @@
+*{
+    background-color: rgba(164, 151, 134, 0.769);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color:rgba(164, 151, 134, 0.769);
+}
+nav{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: white;  
+}
+#lindicon{
+    position: absolute;
+    left: 50px;
+    margin: 5px ;
+    font-size: 40px;
+    color: blue;
+    background-color: #fff;
+}
+
+form{
+    position: absolute;
+    left: 90px;
+    margin: 5px ;
+}
+
+.search{
+    display: flex;
+    width: 280px;
+    height: 35px;
+    position: absolute;
+    top: 3px;
+    padding: 10px ;
+    background-color: rgba(214, 235, 216, 0.805);
+    border-radius: 5px;
+
+}
+.search > i{
+    font-size: 14px;
+    color: gray;
+    padding-left: 13px;
+    background-color: rgba(214, 235, 216, 0.805);
+}
+
+.search > input{
+    position: absolute;
+    left: 40px;
+    padding-left: 6px;
+    opacity: 0.2px;
+    top: 5px;
+    height: 24px;
+    width: 225px;
+    background-color: rgba(214, 235, 216, 0.805);
+    border: 1px solid rgba(214, 235, 216, 0.805) ;
+}
+
+.right div{
+    position: absolute;
+    padding: 2px 10px;
+    font-size: 23px;
+    text-align: center;
+    /*background-color: white;*/
+   
+}
+
+h5{
+    color: gray;
+    font-size: 10px;
+    padding-top: 4px;
+    letter-spacing: 1px;
+    background-color: white;
+}
+.home{
+    position: absolute;
+    left: 548px;
+    top: 4px;
+    background-color: white;
+    color: gray;
+}
+.mynetwork{
+    position: absolute;
+    left: 595px;
+    top: 4px;
+    background-color: white;
+    color: gray;
+}
+.shop{
+    position: absolute;
+    left: 688px;
+    top: 4px;
+    background-color: white;
+    color: gray;
+}
+.message{
+    position: absolute;
+    left: 731px;
+    top: 4px;
+    background-color: white;
+    color: gray;
+}
+.bell{
+    position: absolute;
+    left: 820px;
+    top: 4px;
+    background-color: white;
+    color: gray;
+}
+.right-content{
+    width: 240px;
+    position: absolute;
+    top: 1px;
+    right: 0px;
+}
+
+a{
+    position: absolute;
+    right: 10px;
+    text-decoration: none;
+    color: rgba(103, 122, 36, 0.81);
+    background-color: white;
+    padding-top: 9px;
+    padding-right: 55px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: underline;
+    text-align: center;
+   
+}
+.right-content .work > i{
+    position: absolute;
+    top: 0px;
+    right: 180px;
+    font-size: 25px;
+    z-index: +5000;
+    padding: 3px 4px 5px 20px ;
+    border: 1px solid white;
+    border-color: white white white gray;
+    background-color: white;
+    color: gray;
+}
+#dropdown2{
+    font-size: 17px;
+    position: absolute;
+    top: 28px;
+    right: 170px;
+    padding: 0;
+    border: none;
+}
+i{
+    background-color: white;
+}
+#mei{
+    position: absolute;
+    top: 13px;
+    right: 265px;
+    z-index: +9000;
+    color: gray;
+}
+#dropdown{
+    position: absolute;
+    top: 29px;
+    right:252px ;
+    background-color: white;
+    color: gray;
+}
+
+
+
+
+.left-content{
+    height: 350px ;
+    width: 230px;
+    background-color: red;
+    margin-top: 25px;
+    margin-left: 50px;
+    border-radius: 10px;
+    float: left;
+}
+.profront{
+    width:230px ;
+    height: 280px;
+    border-radius: 0px 0px 10px 10px;
+    position:relative;
+    margin-top: 70px;
+    background-color: #fff;
+}
+.profront >img{
+    height: 70px ;
+    width: 70px ;
+    border-radius: 50px;
+    position: absolute;
+    top: -40px;
+    left: 75px;
+}
+h4{
+    font-size: 14px;
+    width: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: absolute;
+    left: 88px;
+    top: 32px;
+    background-color: white;
+}
+p{
+    font-size: 12px;
+    color: gray;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    top:55px;
+    left:24px;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.connection{
+    width: 230px;
+    height: 95px;
+    position: absolute;
+    top: 80px;
+    background-color: white;
+    border: 1px solid white;
+    border-color: gray white;
+}
+#follow{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+h6{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 11px;
+    font-weight:900px;
+}
+
+.whoviewed{
+    font-size: 12px;
+    color: black;
+    font-family: cursive;
+    font-weight: 700;
+    opacity: 0.8;
+    position: absolute;
+    top: 55px;
+    left: 10px;
+}
+
+.spone{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: blue;
+    background-color: #fff;
+}
+.sptwo{
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    color: blue;
+    background-color: #fff;
+}
+.access{
+    width: 230px;
+    height: 50px;
+    position: absolute;
+    top: 180px;
+    background-color: white;
+    border: 1px solid white;
+    border-color: white white gray white;
+}
+.para1{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    color: gray;
+    font-size: 14px;
+}
+.para2{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    color: black;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.save{
+    position: absolute;
+    bottom: 15px;
+    left: 12px;
+    font-size: 18px;
+    background-color: white;
+   
+}
+i > span{
+    font-size: 13px;
+    opacity: 0.9;
+    text-align: center;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.centercont_1{
+    float:left;
+    width: 560px;
+    height: 125px ;
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:25px ;
+    border-radius: 10px;
+    position: relative;
+}
+.photoicon > img{
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.inpsear > input{
+    width: 460px;
+    height: 50px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: 1px solid gray;
+    background-color: white;
+}
+.lower{
+    display: flex;
+    position: absolute;
+    top: 80px;
+   
+
+}
+.ho{
+    font-size: 23px;
+    position: absolute;
+    left: 30px;
+    background-color: white;
+    color: rgb(140, 140, 223);
+}
+.vid{
+    font-size: 23px;
+    position: absolute;
+    left: 160px;
+    background-color: white;
+    color: rgb(138, 231, 138);
+}
+
+.event{
+    font-size: 23px;
+    position: absolute;
+    left: 280px;
+    background-color: white;
+    color: rgb(251, 192, 83);
+}
+.lesquar{
+    font-size: 22px;
+    position: absolute;
+    left: 400px;            /* 400*/
+    background-color: white;
+    color: rgb(244, 109, 136);
+}
+.ho > p{
+    position: absolute;
+    top: 7px;
+    left: 30px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.vid > p{
+    position: absolute;
+    top: 7px;
+    left: 30px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.event > p{
+    position: absolute;
+    top: 7px;
+    left: 30px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lesquar > p{
+    position: absolute;
+    top: 7px;
+    left: 30px;
+    width: 90px;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.news{
+    float: right;
+    margin-top: 25px;
+    margin-right: 35px;
+    width: 310px;
+    height: 370px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+
+.news > h4{
+    font-size: 16px;
+    color: black;
+    width: 200px;
+    position:absolute;
+    top: 18px;
+    left: 13px;
+    opacity: 0.9;
+}
+
+ul > li{
+    background-color: white;
+}
+ul{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.pnew1{
+    position: absolute;
+    top: 25px;
+    left:10px;
+    color: gray;
+}
+.pnew2{
+    position: absolute;
+    top:75px;
+    left:10px;
+    color: gray;
+}
+.pnew3{
+    position: absolute;
+    top:125px;
+    left:10px;
+    color: gray;
+}
+.pnew4{
+    position: absolute;
+    top:175px;
+    left:10px;
+    color: gray;
+}
+.pnew5{
+    position: absolute;
+    top:225px;
+    left:10px;
+    color: gray;
+}
+.pnew6{
+    position: absolute;
+    top:280px;
+    left:10px;
+    color: gray;
+}
+
+/*this is first content middle styling shuru*/
+
+
+.itembox1{
+    margin-top: 390px;
+    margin-left: 50px;
+    width: 230px;
+    height: 142px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+.itembox1 > div > p{
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+.grppara1 >p{
+    position: absolute;
+    top: 19px;
+    left: 15px;
+}
+.grppara2 >p{
+    position: absolute;
+    top: 49px;
+    left: 15px;
+}
+.grppara3 >p{
+    position: absolute;
+    top: 79px;
+    left: 0px;
+    width: 230px;
+    padding-left: 0px;
+    padding-right: 90px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    
+}
+
+#plus{
+    position:absolute;
+    top:47px;
+    right:12px;
+    color:blue;
+    background-color:white;
+    font-weight:600;
+}
+
+.itembox1 > h4{
+    width: 120px;
+    position: absolute;
+    top: 112px;
+    left: 60px;
+}
+.centercont2{
+    height: 490px;
+    width: 560px;
+    background-color: white;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.centercont2 > img{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    /*border: 1px solid black;*/
+}
+.centercont2 > h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    padding-top: 2px;
+    position: absolute;
+    top: 23px;
+    left: 75px;
+}
+.centercont2 > span{
+    font-size: 9px;
+    color: gray;
+    background-color: white;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.myntra_follow{
+    position: absolute;
+    top: 42px;
+    left: 75px;
+}
+.myntra_prom{
+    position: absolute;
+    top: 55px;
+    left: 75px;
+}
+
+.myntra_kholi > img{
+    height: 330px;
+    width: 560px;
+    position: absolute;
+    top: 90px;
+}
+.below{
+    position: absolute;
+    bottom: 45px;
+    left: 10px;
+    background-color: #fff;
+    margin-right: 5px;
+}
+#bllike{
+    color: blue;
+    background-color: white;
+}
+#blheart{
+    color: red;
+    background-color: white;
+}
+#blclap{
+    color: green;
+    background-color: white;
+}
+.below > span{
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #fff;
+    font-size: 14px;
+
+}
+
+.likesharecomm{
+    width: 560px;
+    height: 30px;
+    background-color:white;
+    position: absolute;
+    bottom: 9px;
+    border: 1px solid black;
+    border-color: gray white white white;
+}
+#like1{
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    font-size: 25px;
+    color: gray;
+}
+#comment1{
+    position: absolute;
+    left: 110px;
+    top: 5px;
+    font-size: 25px;
+    color: gray;
+}
+#share1{
+    position: absolute;
+    left: 230px;
+    top: 5px;
+    font-size: 23px;
+    color: gray;
+}
+
+#send1{
+    position: absolute;
+    left: 330px;
+    top: 5px;
+    font-size: 22px;
+    color: gray;
+}
+
+.likesharecomm > p{
+    position: absolute;
+    top: 10px;
+    color: gray;
+    font-size: 15px;
+}
+.palike{
+    position: absolute;
+    left: 50px;
+}
+.pacommen{
+    position: absolute;
+    left: 140px;
+}
+.pashare{
+    position: absolute;
+    left: 260px;
+}
+.pasend{
+    position: absolute;
+    left: 360px;
+}
+
+.centercont3{
+    height: 540px;
+    width: 560px;
+    background-color: white;
+    float: left;
+    margin-top: 15px;
+    margin-left: 300px;
+    margin-right: 20px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.centercont3 > img{
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    /*border: 1px solid black;*/
+}
+.centercont3 > h6{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    padding-top: 2px;
+    position: absolute;
+    top: 23px;
+    left: 75px;
+}
+.centercont3 > span{
+    font-size: 9px;
+    color: gray;
+    background-color: white;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mk_follow{
+    position: absolute;
+    top: 42px;
+    left: 75px;
+}
+
+.mk_vid{
+    position: absolute;
+    top: 55px;
+    left: 75px;
+}
+.captio > h4{
+    width: 550px;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+}
+
+.mkll_vide >iframe{
+    height: 330px;
+    width: 560px;
+    position: absolute;
+    top: 140px;
+}
+.mk_last{
+    position: absolute;
+    bottom: 45px;
+    left: 10px;
+    background-color: #fff;
+    margin-right: 5px;
+}
+
+.mk_last > span{
+    color: gray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #fff;
+    font-size: 14px;
+
+}
+.todaymost{
+    width: 310px;
+    height: 180px;
+    margin-top: 15px;
+    margin-right: 35px;
+    background-color: white;
+    border-radius: 10px;
+    float: right;
+    position: relative;
+}
+.todaymost > h4{
+    position: absolute;
+    top: 20px;
+    left: 13px;
+    width: 250px;
+    height: 13px;
+}
+.pnew451{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+}
+.pnew452{
+    position: absolute;
+    top: 90px;
+    left: 10px;
+}
+
+.page{
+    width: 310px;
+    height: 370px;
+    float: right;
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 35px;
+    border-radius: 10px;
+    position: relative;
+}
+.page > h4{
+    width: 290px;
+    position: absolute;
+    top: 18px;
+    left: 20px;
+}
+.unilever{
+    width: 310px;
+    height: 100px;
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    margin-bottom: 20px;
+    background-color:white;
+    border: 1px solid black;
+    border-color: white white black white;
+}
+.LinkedIn{
+    width: 310px;
+    height: 100px;
+    position: absolute;
+    top: 135px;
+    left: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color:white;
+    border: 1px solid black;
+    border-color: white white black white;
+}
+.flipkart{
+    width: 310px;
+    height: 100px;
+    position: absolute;
+    top: 240px;
+    left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-color: white white black white;
+}
+
+
+.unilever >img{
+    position: absolute;
+    top: 15px;
+    height: 50px;
+    width: 50px;
+}
+.LinkedIn >img{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    height: 40px;
+    width: 40px;
+}
+.flipkart >img{
+    position: absolute;
+    top: 15px;
+    left: 8px;
+    height: 50px;
+    width: 50px;
+}
+
+
+.unilever >h6{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 22px;
+    left: 55px;
+}
+.unilever >span{
+    position: absolute;
+    top:35px;
+    left: 55px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.7;
+    background-color: white;
+
+}
+.unilever > a{
+    width: 150px;
+    position: absolute;
+    top:54px ;
+    left: 60px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-weight: 500;
+    color: black;
+    padding: 5px 30px;
+}
+.LinkedIn >h6{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 20px;
+    left: 55px;
+}
+.LinkedIn >span{
+    position: absolute;
+    top:35px;
+    left: 55px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.7;
+    background-color: white;
+
+}
+.LinkedIn > a{
+    width: 150px;
+    position: absolute;
+    top:54px ;
+    left: 60px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-weight: 500;
+    color: black;
+    padding: 5px 30px;
+}
+
+.flipkart >h6{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    position: absolute;
+    top: 22px;
+    left: 55px;
+}
+.flipkart >span{
+    position: absolute;
+    top:35px;
+    left: 55px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.7;
+    background-color: white;
+
+}
+.flipkart > a{
+    width: 150px;
+    position: absolute;
+    top:54px ;
+    left: 60px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid black;
+    border-radius: 15px;
+    font-weight: 500;
+    color: black;
+    padding: 5px 30px;
+}
+.page >i{
+    position: absolute;
+    right: 10px;
+    top:15px;
+}
+.news > i{
+    position: absolute;
+    right: 10px;
+    top:15px;
+}
+.todaymost > i{
+    position: absolute;
+    right: 10px;
+    top:15px;
+}
+.centercont2 > i{
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+.centercont3 > i{
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+    top: 20px;
+}
+i:hover{
+    color: black;
+}
+
